@@ -1,0 +1,141 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <link rel="shortcut icon" href="assets/images/expense1.jpg" type="image/x-icon">
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Expense Tracker App</title>
+    <link rel="stylesheet" href="style.css"><!-- Link to CSS file -->
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+            background-color: #f4f4f4;
+            color: #333;
+        }
+        header {
+            background-color: #007bff;
+            color: white;
+            padding: 10px 20px;
+            text-align: center;
+            border-radius: 5px;
+        }
+        h1, h2, h3 {
+            margin: 10px 0;
+        }
+        p {
+            margin-bottom: 20px;
+        }
+        form {
+            background: white;
+            padding: 20px;
+            border-radius: 5px;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+            margin-bottom: 20px;
+        }
+        label {
+            display: block;
+            margin-bottom: 5px;
+        }
+        input[type="text"],
+        input[type="email"],
+        input[type="tel"] {
+            width: calc(100% - 20px);
+            padding: 10px;
+            margin-bottom: 15px;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+        }
+        input[type="submit"] {
+            background-color: #28a745;
+            color: white;
+            border: none;
+            padding: 10px 15px;
+            border-radius: 4px;
+            cursor: pointer;
+            transition: background-color 0.3s;
+        }
+        input[type="submit"]:hover {
+            background-color: #218838;
+        }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 20px;
+            background: white;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+        }
+        th, td {
+            border: 1px solid #ccc;
+            padding: 10px;
+            text-align: left;
+        }
+        th {
+            background-color: #007bff;
+            color: white;
+        }
+        img {
+            max-width: 125px;
+            height: auto;
+            margin-top: 20px;
+        }
+        a {
+            color: #007bff;
+            text-decoration: none;
+        }
+        a:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>Welcome to the Expense Tracker Application</h1>
+</header>
+
+<h2>Track Your Expenses Effectively</h2>
+<p>This application helps you manage and track your expenses efficiently. Sign up below to get started!</p>
+
+<h3>Application Image</h3>
+<img src="assets/images/expense1.jpg" alt="Expense Tracker Image">
+
+<h3>Registration Form</h3>
+<form action="#" method="post">
+    <label for="name">Name:</label>
+    <input type="text" id="name" name="name" required>
+
+    <label for="email">Email:</label>
+    <input type="email" id="email" name="email" required>
+
+    <label for="phone">Phone Number:</label>
+    <input type="tel" id="phone" name="phone" required>
+
+    <input type="submit" value="Register">
+</form>
+
+<h3>User Information</h3>
+<table>
+    <tr>
+        <th>Name</th>
+        <th>Email</th>
+        <th>Phone Number</th>
+    </tr>
+    <tr>
+        <td>John Doe</td>
+        <td>john.doe@example.com</td>
+        <td>(123) 456-7890</td>
+    </tr>
+    <tr>
+        <td>Jane Smith</td>
+        <td>jane.smith@example.com</td>
+        <td>(987) 654-3210</td>
+    </tr>
+</table>
+
+<p>For more information, visit <a href="https://google.com" target="_blank">Google</a>.</p>
+
+</body>
+</html>
